@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for node-npmtest-js-git/node_modules/js-git/net/git-fetch-pack.js</title>
+    <title>Code coverage report for node-npmtest-js-git/node_modules/js-git/net/transport-tcp.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,23 +194,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-js-git">npmtest-js-git (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-js-git/node_modules/js-git/net/git-fetch-pack.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-js-git/node_modules/js-git/net/transport-tcp.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">9.3% <small>(12 / 129)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">26.92% <small>(7 / 26)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">0% <small>(0 / 67)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 8)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 9)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">10% <small>(12 / 120)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">28% <small>(7 / 25)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-js-git/node_modules/js-git/net/</a> &#187; git-fetch-pack.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-js-git/node_modules/js-git/net/</a> &#187; transport-tcp.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -263,332 +263,37 @@
 47
 48
 49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
-163
-164
-165
-166
-167
-168
-169
-170
-171
-172
-173
-174
-175
-176
-177
-178
-179
-180
-181
-182
-183
-184
-185
-186
-187
-188
-189
-190
-191
-192
-193
-194
-195
-196
-197
-198</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+50</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -598,12 +303,11 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -611,205 +315,57 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
 &nbsp;
 var makeChannel = require('culvert');
-var wrapHandler = require('../lib/wrap-handler');
 var bodec = require('bodec');
+var pktLine = require('../lib/pkt-line');
+var wrapHandler = require('../lib/wrap-handler');
 &nbsp;
-module.exports = fetchPack;
+module.exports = <span class="fstat-no" title="function not covered" >function (connect) {</span>
 &nbsp;
-<span class="fstat-no" title="function not covered" >function fetchPack(transport, onError) {</span>
+<span class="cstat-no" title="statement not covered" >  return <span class="fstat-no" title="function not covered" >function tcpTransport(path, host, port) {</span></span>
+<span class="cstat-no" title="statement not covered" >    port = (port|0) || 9418;</span>
+<span class="cstat-no" title="statement not covered" >    if (!path || !host) <span class="cstat-no" title="statement not covered" >throw new Error("path and host are required");</span></span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (!onError) <span class="cstat-no" title="statement not covered" >onError = throwIt;</span></span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function (serviceName, onError) {</span></span>
 &nbsp;
-  // Wrap our handler functions to route errors properly.
-<span class="cstat-no" title="statement not covered" >  onRef = wrapHandler(onRef, onError);</span>
-<span class="cstat-no" title="statement not covered" >  onWant = wrapHandler(onWant, onError);</span>
-<span class="cstat-no" title="statement not covered" >  onNak = wrapHandler(onNak, onError);</span>
-<span class="cstat-no" title="statement not covered" >  onMore = wrapHandler(onMore, onError);</span>
-<span class="cstat-no" title="statement not covered" >  onReady = wrapHandler(onReady, onError);</span>
+<span class="cstat-no" title="statement not covered" >      onData = wrapHandler(onData, onError);</span>
+<span class="cstat-no" title="statement not covered" >      onDrain = wrapHandler(onDrain, onError);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  var caps = null;</span>
-<span class="cstat-no" title="statement not covered" >  var capsSent = false;</span>
-<span class="cstat-no" title="statement not covered" >  var refs = {};</span>
-<span class="cstat-no" title="statement not covered" >  var haves = {};</span>
-<span class="cstat-no" title="statement not covered" >  var havesCount = 0;</span>
+<span class="cstat-no" title="statement not covered" >      var socket = connect(host, port, onError);</span>
+<span class="cstat-no" title="statement not covered" >      var inter = makeChannel();</span>
+<span class="cstat-no" title="statement not covered" >      inter.put = pktLine.deframer(inter.put);</span>
 &nbsp;
-  // Create a duplex channel for talking with the agent.
-<span class="cstat-no" title="statement not covered" >  var libraryChannel = makeChannel();</span>
-<span class="cstat-no" title="statement not covered" >  var agentChannel = makeChannel();</span>
-<span class="cstat-no" title="statement not covered" >  var api = {</span>
-    put: libraryChannel.put,
-    drain: libraryChannel.drain,
-    take: agentChannel.take
-  };
+<span class="cstat-no" title="statement not covered" >      socket.put = pktLine.framer(socket.put);</span>
+<span class="cstat-no" title="statement not covered" >      var greeting = bodec.fromRaw(serviceName + " " + path + "\0host=" + host + "\0");</span>
+<span class="cstat-no" title="statement not covered" >      socket.put(greeting);</span>
 &nbsp;
-  // Start the connection and listen for the response.
-<span class="cstat-no" title="statement not covered" >  var socket = transport("git-upload-pack", onError);</span>
-<span class="cstat-no" title="statement not covered" >  socket.take(onRef);</span>
-&nbsp;
-  // Return the other half of the duplex API channel.
-<span class="cstat-no" title="statement not covered" >  return {</span>
-    put: agentChannel.put,
-    drain: agentChannel.drain,
-    take: libraryChannel.take
-  };
-&nbsp;
-<span class="fstat-no" title="function not covered" >  function onRef(line) {</span>
-<span class="cstat-no" title="statement not covered" >    if (line === undefined) {</span>
-<span class="cstat-no" title="statement not covered" >      throw new Error("Socket disconnected");</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line === null) {</span>
-<span class="cstat-no" title="statement not covered" >      api.put(refs);</span>
-<span class="cstat-no" title="statement not covered" >      api.take(onWant);</span>
-<span class="cstat-no" title="statement not covered" >      return;</span>
-    }
-    else <span class="cstat-no" title="statement not covered" >if (!caps) {</span>
-<span class="cstat-no" title="statement not covered" >      caps = {};</span>
-<span class="cstat-no" title="statement not covered" >      Object.defineProperty(refs, "caps", {value: caps});</span>
-<span class="cstat-no" title="statement not covered" >      Object.defineProperty(refs, "shallows", {value:[]});</span>
-<span class="cstat-no" title="statement not covered" >      var index = line.indexOf("\0");</span>
-<span class="cstat-no" title="statement not covered" >      if (index &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >        line.substring(index + 1).split(" ").forEach(<span class="fstat-no" title="function not covered" >function (cap) {</span></span>
-<span class="cstat-no" title="statement not covered" >          var i = cap.indexOf("=");</span>
-<span class="cstat-no" title="statement not covered" >          if (i &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >            caps[cap.substring(0, i)] = cap.substring(i + 1);</span>
-          }
-          else {
-<span class="cstat-no" title="statement not covered" >            caps[cap] = true;</span>
-          }
-        });
-<span class="cstat-no" title="statement not covered" >        line = line.substring(0, index);</span>
-      }
-    }
-<span class="cstat-no" title="statement not covered" >    var match = line.match(/(^[0-9a-f]{40}) (.*)$/);</span>
-<span class="cstat-no" title="statement not covered" >    if (!match) {</span>
-<span class="cstat-no" title="statement not covered" >      if (typeof line === "string" &amp;&amp; /^ERR/i.test(line)) {</span>
-<span class="cstat-no" title="statement not covered" >        throw new Error(line);</span>
-      }
-<span class="cstat-no" title="statement not covered" >      throw new Error("Invalid line: " + JSON.stringify(line));</span>
-    }
-<span class="cstat-no" title="statement not covered" >    refs[match[2]] = match[1];</span>
-<span class="cstat-no" title="statement not covered" >    socket.take(onRef);</span>
-  }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >  var packChannel;</span>
-<span class="cstat-no" title="statement not covered" >  var progressChannel;</span>
-<span class="cstat-no" title="statement not covered" >  var errorChannel;</span>
-&nbsp;
-<span class="fstat-no" title="function not covered" >  function onWant(line) {</span>
-<span class="cstat-no" title="statement not covered" >    if (line === undefined) <span class="cstat-no" title="statement not covered" >return socket.put();</span></span>
-<span class="cstat-no" title="statement not covered" >    if (line === null) {</span>
-<span class="cstat-no" title="statement not covered" >      socket.put(null);</span>
-<span class="cstat-no" title="statement not covered" >      return api.take(onWant);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line.deepen) {</span>
-<span class="cstat-no" title="statement not covered" >      socket.put("deepen " + line.deepen + "\n");</span>
-<span class="cstat-no" title="statement not covered" >      return api.take(onWant);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line.have) {</span>
-<span class="cstat-no" title="statement not covered" >      haves[line.have] = true;</span>
-<span class="cstat-no" title="statement not covered" >      havesCount++;</span>
-<span class="cstat-no" title="statement not covered" >      socket.put("have " + line.have + "\n");</span>
-<span class="cstat-no" title="statement not covered" >      return api.take(onWant);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line.want) {</span>
-<span class="cstat-no" title="statement not covered" >      var extra = "";</span>
-<span class="cstat-no" title="statement not covered" >      if (!capsSent) {</span>
-<span class="cstat-no" title="statement not covered" >        capsSent = true;</span>
-<span class="cstat-no" title="statement not covered" >        if (caps["ofs-delta"]) <span class="cstat-no" title="statement not covered" >extra += " ofs-delta";</span></span>
-<span class="cstat-no" title="statement not covered" >        if (caps["thin-pack"]) <span class="cstat-no" title="statement not covered" >extra += " thin-pack";</span></span>
-        // if (caps["multi_ack_detailed"]) extra += " multi_ack_detailed";
-        // else if (caps["multi_ack"]) extra +=" multi_ack";
-<span class="cstat-no" title="statement not covered" >        if (caps["side-band-64k"]) <span class="cstat-no" title="statement not covered" >extra += " side-band-64k";</span></span>
-        else <span class="cstat-no" title="statement not covered" >if (caps["side-band"]) <span class="cstat-no" title="statement not covered" >extra += " side-band";</span></span>
-        // if (caps["agent"]) extra += " agent=" + agent;
-<span class="cstat-no" title="statement not covered" >        if (caps.agent) <span class="cstat-no" title="statement not covered" >extra += " agent=" + caps.agent;</span></span>
-      }
-<span class="cstat-no" title="statement not covered" >      extra += "\n";</span>
-<span class="cstat-no" title="statement not covered" >      socket.put("want " + line.want + extra);</span>
-<span class="cstat-no" title="statement not covered" >      return api.take(onWant);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line.done) {</span>
-<span class="cstat-no" title="statement not covered" >      socket.put("done\n");</span>
-<span class="cstat-no" title="statement not covered" >      return socket.take(onNak);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    throw new Error("Invalid have/want command");</span>
-  }
-&nbsp;
-<span class="fstat-no" title="function not covered" >  function onNak(line) {</span>
-<span class="cstat-no" title="statement not covered" >    if (line === undefined) <span class="cstat-no" title="statement not covered" >return api.put();</span></span>
-<span class="cstat-no" title="statement not covered" >    if (line === null) <span class="cstat-no" title="statement not covered" >return socket.take(onNak);</span></span>
-<span class="cstat-no" title="statement not covered" >    if (bodec.isBinary(line) || line.progress || line.error) {</span>
-<span class="cstat-no" title="statement not covered" >      packChannel = makeChannel();</span>
-<span class="cstat-no" title="statement not covered" >      progressChannel = makeChannel();</span>
-<span class="cstat-no" title="statement not covered" >      errorChannel = makeChannel();</span>
-<span class="cstat-no" title="statement not covered" >      api.put({</span>
-        pack: { take: packChannel.take },
-        progress: { take: progressChannel.take },
-        error: { take: errorChannel.take },
-      });
-<span class="cstat-no" title="statement not covered" >      return onMore(null, line);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    var match = line.match(/^shallow ([0-9a-f]{40})$/);</span>
-<span class="cstat-no" title="statement not covered" >    if (match) {</span>
-<span class="cstat-no" title="statement not covered" >      refs.shallows.push(match[1]);</span>
-<span class="cstat-no" title="statement not covered" >      return socket.take(onNak);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    match = line.match(/^ACK ([0-9a-f]{40})$/);</span>
-<span class="cstat-no" title="statement not covered" >    if (match) {</span>
-<span class="cstat-no" title="statement not covered" >      return socket.take(onNak);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line === "NAK") {</span>
-<span class="cstat-no" title="statement not covered" >      return socket.take(onNak);</span>
-    }
-<span class="cstat-no" title="statement not covered" >    throw new Error("Expected NAK, but got " + JSON.stringify(line));</span>
-  }
-&nbsp;
-<span class="fstat-no" title="function not covered" >  function onMore(line) {</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (line === undefined) {</span>
-<span class="cstat-no" title="statement not covered" >      packChannel.put();</span>
-<span class="cstat-no" title="statement not covered" >      progressChannel.put();</span>
-<span class="cstat-no" title="statement not covered" >      errorChannel.put();</span>
-<span class="cstat-no" title="statement not covered" >      return api.put();</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (line === null) {</span>
-<span class="cstat-no" title="statement not covered" >      api.put(line);</span>
-    }
-    else {
-<span class="cstat-no" title="statement not covered" >      if (line.progress) {</span>
-<span class="cstat-no" title="statement not covered" >        progressChannel.put(line.progress);</span>
-      }
-      else <span class="cstat-no" title="statement not covered" >if (line.error) {</span>
-<span class="cstat-no" title="statement not covered" >        errorChannel.put(line.error);</span>
-      }
-      else {
-<span class="cstat-no" title="statement not covered" >        if (!packChannel.put(line)) {</span>
-<span class="cstat-no" title="statement not covered" >          return packChannel.drain(onReady);</span>
+      // Pipe socket to inter with backpressure
+<span class="cstat-no" title="statement not covered" >      socket.take(onData);</span>
+<span class="fstat-no" title="function not covered" >      function onData(chunk) {</span>
+<span class="cstat-no" title="statement not covered" >        if (inter.put(chunk)) {</span>
+<span class="cstat-no" title="statement not covered" >          socket.take(onData);</span>
+        }
+        else {
+<span class="cstat-no" title="statement not covered" >          inter.drain(onDrain);</span>
         }
       }
-    }
-<span class="cstat-no" title="statement not covered" >    socket.take(onMore);</span>
-  }
+<span class="fstat-no" title="function not covered" >      function onDrain() {</span>
+<span class="cstat-no" title="statement not covered" >        socket.take(onData);</span>
+      }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  function onReady() {</span>
-<span class="cstat-no" title="statement not covered" >    socket.take(onMore);</span>
-  }
-&nbsp;
-}
-&nbsp;
-var defer = require('js-git/lib/defer');
-<span class="fstat-no" title="function not covered" >function throwIt(err) {</span>
-<span class="cstat-no" title="statement not covered" >  defer(<span class="fstat-no" title="function not covered" >function () {</span></span>
-<span class="cstat-no" title="statement not covered" >    throw err;</span>
-  });
-  // throw err;
-}
+<span class="cstat-no" title="statement not covered" >      return {</span>
+        put: socket.put,
+        drain: socket.drain,
+        take: inter.take
+      };
+    };
+  };
+};
 &nbsp;
 &nbsp;</pre></td></tr>
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 10:42:47 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 25 2017 19:06:49 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
