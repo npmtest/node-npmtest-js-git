@@ -1,6 +1,6 @@
 # npmtest-js-git
 
-#### test coverage for  [js-git (v0.7.8)](https://github.com/creationix/js-git#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-js-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-js-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-js-git.svg)](https://travis-ci.org/npmtest/node-npmtest-js-git)
+#### basic test coverage for  [js-git (v0.7.8)](https://github.com/creationix/js-git#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-js-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-js-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-js-git.svg)](https://travis-ci.org/npmtest/node-npmtest-js-git)
 
 #### Git Implemented in JavaScript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-js-git/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-js-git/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-js-git/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-js-git/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-js-git/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-js-git/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-js-git/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-js-git/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-js-git/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-js-git/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-js-git/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-js-git/build/coverage.html/index.html)
 
@@ -75,7 +75,8 @@
     "scripts": {
         "test": "ls test/test-* | xargs -n1 node"
     },
-    "version": "0.7.8"
+    "version": "0.7.8",
+    "bin": {}
 }
 ```
 

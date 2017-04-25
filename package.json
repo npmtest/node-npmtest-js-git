@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [js-git (v0.7.8)](https://github.com/creationix/js-git#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-js-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-js-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-js-git.svg)](https://travis-ci.org/npmtest/node-npmtest-js-git)",
+    "description": "#### basic test coverage for  [js-git (v0.7.8)](https://github.com/creationix/js-git#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-js-git.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-js-git) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-js-git.svg)](https://travis-ci.org/npmtest/node-npmtest-js-git)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "js-git": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
